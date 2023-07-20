@@ -1,8 +1,11 @@
 # CSS i18n
 
-[![css-i18n | NPM](https://img.shields.io/npm/v/css-i18n)](https://github.com/YunYouJun/valaxy/tree/main/packages/css-i18n)
+[![css-i18n | NPM](https://img.shields.io/npm/v/css-i18n)](https://github.com/valaxyjs/css-i18n)
 
-- Based on `markdown-it` & `markdown-it-container`
+CSS I18n Plugin for Markdown-It.
+
+- [markdown-it](https://github.com/markdown-it/markdown-it)
+- [markdown-it-container](https://github.com/markdown-it/markdown-it-container)
 
 ## Usage
 
