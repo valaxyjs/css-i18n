@@ -1,0 +1,41 @@
+{
+  "name": "css-i18n",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.6.9",
+  "homepage": "https://github.com/valaxyjs/css-i18n",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valaxyjs/css-i18n"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "npm run build:lib && npm run build:css",
+    "build:lib": "tsup src/index.ts --dts",
+    "build:css": "sass src/styles/index.scss dist/index.css",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "release": "",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.8",
+    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it-container": "^2.0.5",
+    "eslint": "^8.45.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-container": "^3.0.0",
+    "sass": "^1.64.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
