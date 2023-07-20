@@ -1,6 +1,6 @@
 {
   "name": "css-i18n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@8.6.9",
   "homepage": "https://github.com/valaxyjs/css-i18n",
   "repository": {
@@ -24,7 +24,7 @@
     "build:css": "sass src/styles/index.scss dist/index.css",
     "lint": "eslint .",
     "prepublishOnly": "npm run build",
-    "release": "",
+    "release": "bumpp --commit --push --tag",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
