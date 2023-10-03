@@ -11,8 +11,7 @@ export function cssI18nContainer(md: MarkdownIt, options: CSSI18nOptions = {}) {
 
   languages.forEach((lang) => {
     md.use(container, lang, {
-      render: (tokens: Token[], idx: number) =>
-        tokens[idx].nesting === 1 ? `<div lang="${lang}">\n` : '</div>\n',
+      render: (tokens: Token[], idx: number) => tokens[idx].nesting === 1 ? `<div lang="${lang}">\n` : '</div>\n',
     })
   })
 }
