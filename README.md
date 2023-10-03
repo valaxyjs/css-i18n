@@ -1,5 +1,7 @@
 # CSS i18n
 
+Preview: [i18n in One Page by `css-i18n`](https://valaxy.site/guide/i18n)
+
 [![css-i18n | NPM](https://img.shields.io/npm/v/css-i18n)](https://github.com/valaxyjs/css-i18n)
 
 CSS I18n Plugin for Markdown-It.

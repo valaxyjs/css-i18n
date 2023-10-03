@@ -1,7 +1,7 @@
 {
   "name": "css-i18n",
   "version": "0.0.2",
-  "packageManager": "pnpm@8.6.9",
+  "packageManager": "pnpm@8.8.0",
   "homepage": "https://github.com/valaxyjs/css-i18n",
   "repository": {
     "type": "git",
@@ -30,12 +30,12 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.8",
     "@types/markdown-it": "^12.2.3",
-    "@types/markdown-it-container": "^2.0.5",
-    "eslint": "^8.45.0",
-    "markdown-it": "^13.0.1",
+    "@types/markdown-it-container": "^2.0.7",
+    "eslint": "^8.50.0",
+    "markdown-it": "^13.0.2",
     "markdown-it-container": "^3.0.0",
-    "sass": "^1.64.0",
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6"
+    "sass": "^1.68.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   }
 }
