@@ -33,9 +33,12 @@ html[lang] {
       h4[lang="#{$lang}"],
       h5[lang="#{$lang}"],
       h6[lang="#{$lang}"],
-      div[lang="#{$lang}"],
-      span[lang="#{$lang}"] {
+      div[lang="#{$lang}"] {
         display: block;
+      }
+
+      span[lang="#{$lang}"] {
+        display: inline;
       }
     }
 
