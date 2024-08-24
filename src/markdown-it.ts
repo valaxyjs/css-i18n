@@ -3,9 +3,28 @@ import type Token from 'markdown-it/lib/token.mjs'
 import container from 'markdown-it-container'
 
 export interface CSSI18nOptions {
+  /**
+   * Languages to support
+   * @default ['zh-CN', 'en']
+   */
   languages?: string[]
 }
 
+/**
+ * Add a container to markdown-it to support i18n
+ * @example
+ * ```markdown
+ * ::: zh-CN
+ * 你好
+ * :::
+ *
+ * ::: en
+ * Hello
+ * :::
+ * ```
+ * @param md
+ * @param options
+ */
 export function cssI18nContainer(md: MarkdownIt, options: CSSI18nOptions = {}) {
   const languages = options.languages || ['zh-CN', 'en']
 
